@@ -5,13 +5,16 @@
 
 <head>
     <metacharset="utf-8">
-        <link rel="stylesheet" type="text/css" href="media/css/style.css" />
+
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="media/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="media/css/style.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
         <link rel="stylesheet"
             href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="media/js/script.js"></script>
         <title>Antoine Ollé - Portfolio</title>
 </head>
 
@@ -23,15 +26,182 @@
         <div class="container">
             <div class="glitch" data-text="ANTOINE OLLE">ANTOINE OLLE</div>
             <div class="glow">ANTOINE OLLE</div>
+            <p class="subtitle">Etudiant en informatique - Développeur Web et Software</p>
         </div>
-        <p>WORK IN PROGRESS</p>
+
         <div class="scanlines"></div>
+
+        <div class="all">
+            <div class="lefter">
+                <div class="text"><a href=#contact>Contact</a></div>
+            </div>
+            <div class="left">
+                <div class="text"><a href=#projets>Mes Projets</a></div>
+            </div>
+            <div class="center">
+                <div class="explainer"><span>Découvrir</span></div>
+                <div class="text"><a href=#kisuije>Qui suis-je ?</a></div>
+            </div>
+            <div class="right">
+                <div class="text"><a href=#parcours>Parcours</a></div>
+            </div>
+            <div class="righter">
+                <div class="text"><a href=#compétence></a>Mes compétences</div>
+            </div>
+        </div>
+
+        <!--<a href="https://jouanmarcel.com" target="_blank" class="ref">🔗 Jouan Marcel</a>-->
     </div>
-    <div class="two">
-        <h1>Wesh alors</h1>
+    <div class="divider"><br /></div>
+
+    <div id="kisuije">
+        <div class="flex">
+            <h1>QUI SUIS-JE ?</h1>
+            <div>
+                <h2>A PROPOS</h2>
+                <p>
+                    Etudiant dans le domaine de l'informatique, je m'apprète actuellement à partir étudier la conception
+                    de jeux-vidéos à l'Université du Québec dans la ville de Chicoutimi après l'obtention de mon DUT
+                    Informatique dans le but de devenir développeur de jeux vidéos
+                    Créatif et curieux, j'apprécie tout particulièrelent concevoir des sites, applications et jeux
+                    éstéthiques
+                    et originaux en utilisant mes connaissances et mon imagination.
+                </p>
+                <h2>CENTRES D'INTERETS</h2>
+                <ul class="tilesWrap">
+                    <li>
+                        <img src="media/images/code-transparent-icon-4-transparent.png" alt="Code">
+                        <h3 class="bleu">PROGRAMMATION ET CONCEPTION</h3>
+                        <p>
+                            Développement de sites web et d'application. Ecriture de scénario et d'univers fantaisistes
+                            dans le cadre de la conception de jeux vidéos.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="media/images/gamepad-controller.png" alt="Gaming">
+                        <h3 class="orange">JEUX-VIDEOS</h3>
+                        <p>
+                            Jeux de stratégie et d'équipe, jeux de cartes, tournois et évennements régionaux, stratégie,
+                            réfléxion, concentration et cohésion d'équipe.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="media/images/kissclipart-theatre-icon-png-clipart-theatre-computer-icons-33b418b9436a01a6.png"
+                            alt="JDR">
+                        <h3 class="rose">JEUX DE ROLES</h3>
+                        <p>
+                            Création et incarnation d'un personnage en tant que joueur. Ecriture de scénarios, création
+                            de monde et direction d'un groupe de joueurs en tant que maître du jeu
+                        </p>
+                    </li>
+            </div>
+            <img class="contourimg" src="media/images/profil.jpg">
+        </div>
     </div>
 
+    <div class="divider"><br /></div>
 
+    <div id="parcours">
+        <div class="flex">
+            <h1>MON PARCOURS</h1>
+            <div>
+                <h2> PARCOURS SCOLAIRE</h2>
+                <div class="carousel-wrapper"
+                    <span id="item-1"></span>
+                    <span id="item-2"></span>
+                    <span id="item-3"></span>
+                    <div class="carousel-item item-1">
+                        <h3 class="bleu">ENSEIGNEMENT SECONDAIRE</h3>
+                        <p>Obtention du baccalauréat scientifique SVT (option Informatique et Science du numérique) avec
+                            mention bien
+                            <a class="arrow arrow-prev" href="#item-3"></a>
+                            <a class="arrow arrow-next" href="#item-2"></a>
+                    </div>
+
+                    <div class="carousel-item item-2">
+                        <h3 class="orange">ETUDES SUPERIEURES</h3>
+                        <p>DUT informaique - en cours de validation</p>
+                        <p>Obtention du TOEIC avec un score de 960/990</p>
+                        <a class="arrow arrow-prev" href="#item-1"></a>
+                        <a class="arrow arrow-next" href="#item-3"></a>
+                    </div>
+
+                    <div class="carousel-item item-3">
+                        <h3 class="rose">OBJECTIF</h3>
+                        <p>Université du Quebec à Chicoutimi - Baccalauréat avec majeure en conception de jeu vidéo</p>
+                        <a class="arrow arrow-prev" href="#item-2"></a>
+                        <a class="arrow arrow-next" href="#item-1"></a>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+            <div>
+                <h2>PARCOURS PROFESSIONEL</h2>
+                <div class="thumbnail"><img class="thumbnail__img" src="media/images/hopital.jpg" />
+                    <div class="thumbnail__content">
+                        <div class="thumbnail__title">Agent hospitalier</div>
+                        <div class="thumbnail__subtitle">Travail à la blanchisserie de Guéret en Hiver 2018 dans le cadre d'un remplacement ainsi qu'au printemps 2020 en tant que renfort pour faire face à la crise du COVID-19.</div>
+                        <div class="thumbnail__link">En savoir plus</div>
+                    </div>
+                </div>
+                <br/>
+                <div class="thumbnail"><img class="thumbnail__img" src="media/images/courtilles.jpg" />
+                    <div class="thumbnail__content">
+                        <div class="thumbnail__title">Animateur</div>
+                        <div class="thumbnail__subtitle">Animateur des activités terrestre proposé lors de l'évennement estival "un été à Courtilles"</div>
+                        <div class="thumbnail__link">En savoir plus</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="divider"><br /></div>
+
+    <div id="compétence">
+        <div class="flex">
+            <h1>COMPETENCES</h1>
+            <div class="skillcontainer">
+                <h2>COMPETENCES INFORMATIQUES</h2>
+                <br/>
+                <div class="bar learning" data-skill="TDD"></div>
+                <div class="bar back basic" data-skill="Python"></div>
+                <div class="bar back intermediate" data-skill="C#"></div>
+                <div class="bar front advanced" data-skill="CSS3"></div>
+                <div class="bar front expert" data-skill="HTML5"></div>
+            
+              </div>
+              <div class="skillcontainer">
+                <h2>AUTRES COMPETENCES</h2>
+                <br/>
+                <div class="bar learning" data-skill="TDD"></div>
+                <div class="bar back basic" data-skill="Python"></div>
+                <div class="bar back intermediate" data-skill="C#"></div>
+                <div class="bar front advanced" data-skill="CSS3"></div>
+                <div class="bar front expert" data-skill="HTML5"></div>
+            
+              </div>
+        </div>
+        
+    </div>
+
+    <div class="divider"><br /></div>
+
+    <div id="projets">
+        <h1>MES PROJETS</h1>
+    </div>
+
+    <div class="divider"><br /></div>
+
+    <div id="contact">
+        <h1>ME CONTACTER</h1>
+    </div>
+
+    <div class="divider"><br /></div>
 </body>
 
 </html>
