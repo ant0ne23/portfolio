@@ -5,6 +5,7 @@
 
 <head>
     <metacharset="utf-8">
+        <link rel="icon" type="image/png" href="media/images/ao2.png" />
 
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="media/css/reset.css" />
@@ -19,7 +20,9 @@
 </head>
 
 <body>
-    <div class="one">
+    <a href=#one class="fix"><img src="media/images/ao.png"></a>
+    <div id="one">
+
         <div class="sign">
             <span class="fast-flicker">Po</span>rtf<span class="flicker">oli</span>o
         </div>
@@ -46,7 +49,7 @@
                 <div class="text"><a href=#parcours>Parcours</a></div>
             </div>
             <div class="righter">
-                <div class="text"><a href=#compétence></a>Mes compétences</div>
+                <div class="text"><a href=#competence></a>Mes compétences</div>
             </div>
         </div>
 
@@ -67,6 +70,7 @@
                     éstéthiques
                     et originaux en utilisant mes connaissances et mon imagination.
                 </p>
+                <a class="gradient-button gradient-button-1" href="media/pdf/CV2.pdf">Curriculum Vitae</a><br /><br />
                 <h2>CENTRES D'INTERETS</h2>
                 <ul class="tilesWrap">
                     <li>
@@ -81,7 +85,7 @@
                         <img src="media/images/gamepad-controller.png" alt="Gaming">
                         <h3 class="orange">JEUX-VIDEOS</h3>
                         <p>
-                            Jeux de stratégie et d'équipe, jeux de cartes, tournois et évennements régionaux, stratégie,
+                            Jeux de stratégie et d'équipe, jeux de cartes, stratégie,
                             réfléxion, concentration et cohésion d'équipe.
                         </p>
                     </li>
@@ -106,7 +110,7 @@
             <h1>MON PARCOURS</h1>
             <div>
                 <h2> PARCOURS SCOLAIRE</h2>
-                <div class="carousel-wrapper"
+                <div class="carousel-wrapper">
                     <span id="item-1"></span>
                     <span id="item-2"></span>
                     <span id="item-3"></span>
@@ -137,20 +141,23 @@
                     <br />
                 </div>
             </div>
-            <div>
+            <div class="pro">
                 <h2>PARCOURS PROFESSIONEL</h2>
                 <div class="thumbnail"><img class="thumbnail__img" src="media/images/hopital.jpg" />
                     <div class="thumbnail__content">
                         <div class="thumbnail__title">Agent hospitalier</div>
-                        <div class="thumbnail__subtitle">Travail à la blanchisserie de Guéret en Hiver 2018 dans le cadre d'un remplacement ainsi qu'au printemps 2020 en tant que renfort pour faire face à la crise du COVID-19.</div>
+                        <div class="thumbnail__subtitle">Travail à la blanchisserie de Guéret en Hiver 2018 ainsi qu'au
+                            printemps 2020 en tant que renfort pour faire face à la
+                            crise du COVID-19.</div>
                         <div class="thumbnail__link">En savoir plus</div>
                     </div>
                 </div>
-                <br/>
+                <br />
                 <div class="thumbnail"><img class="thumbnail__img" src="media/images/courtilles.jpg" />
                     <div class="thumbnail__content">
                         <div class="thumbnail__title">Animateur</div>
-                        <div class="thumbnail__subtitle">Animateur des activités terrestre proposé lors de l'évennement estival "un été à Courtilles"</div>
+                        <div class="thumbnail__subtitle">Animateur des activités terrestre proposé lors de l'évennement
+                            estival "un été à Courtilles"</div>
                         <div class="thumbnail__link">En savoir plus</div>
                     </div>
                 </div>
@@ -162,46 +169,171 @@
 
     <div class="divider"><br /></div>
 
-    <div id="compétence">
+    <div id="competence">
         <div class="flex">
             <h1>COMPETENCES</h1>
             <div class="skillcontainer">
                 <h2>COMPETENCES INFORMATIQUES</h2>
-                <br/>
-                <div class="bar learning" data-skill="TDD"></div>
-                <div class="bar back basic" data-skill="Python"></div>
-                <div class="bar back intermediate" data-skill="C#"></div>
+                <br />
+                <div class="bar learning" data-skill="Redux"></div>
+                <div class="bar basic" data-skill="C++"></div>
+                <div class="bar back intermediate" data-skill="NodeJS"></div>
+                <div class="bar back intermediate" data-skill="PHP"></div>
+                <div class="bar back intermediate" data-skill="React"></div>
                 <div class="bar front advanced" data-skill="CSS3"></div>
+                <div class="bar front advanced" data-skill="Java"></div>
                 <div class="bar front expert" data-skill="HTML5"></div>
-            
-              </div>
-              <div class="skillcontainer">
+                <div class="bar front expert" data-skill="MySQL/SQL Server"></div>
+
+
+
+
+            </div>
+            <div class="skillcontainer">
                 <h2>AUTRES COMPETENCES</h2>
-                <br/>
-                <div class="bar learning" data-skill="TDD"></div>
-                <div class="bar back basic" data-skill="Python"></div>
-                <div class="bar back intermediate" data-skill="C#"></div>
-                <div class="bar front advanced" data-skill="CSS3"></div>
-                <div class="bar front expert" data-skill="HTML5"></div>
-            
-              </div>
+                <br />
+                <div class="bar basic" data-skill="Méthode Scrum"></div>
+                <div class="bar back intermediate" data-skill="Allemand"></div>
+                <div class="bar back intermediate" data-skill="Gestion de Projet agile"></div>
+                <div class="bar front advanced" data-skill="Pack Office"></div>
+                <div class="bar front expert" data-skill="Anglais"></div>
+            </div>
         </div>
-        
+
     </div>
 
     <div class="divider"><br /></div>
 
     <div id="projets">
-        <h1>MES PROJETS</h1>
+        <div class="flex2">
+            <h1>MES PROJETS</h1>
+            <div class="list">
+                <div class="projet">
+                    <a class="c-preview">
+                        <div class="projet1"></div>
+                    </a>
+                    <div class="projetcontent">
+                        <h2>Souvenanges</h2>
+                        <p>Souvenanges est un projet consistant en la refonte du site internet de l'association
+                            caritative Souvenange en suivant une stack bien précise. L'objectif de cette refonte était
+                            de rendre le site plus pratique pour les membres et gestionnaires de l'association tout en
+                            le rendant plus éstéthique et sécurisé pour les visiteurs</p>
+                        <h3>Stack utilisée : </h3>
+                        <div class="flex">
+                            <div class="flex2">
+                                <img src="media/images/react.png" alt="React">
+                                <img src="media/images/redux.png" alt="Redux">
+                                <img src="media/images/strapi.png" alt="Strapi">
+                            </div>
+                            <p>Code source non disponible par choix du client</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <a class="c-preview">
+                        <div class="projet2"></div>
+                    </a>
+                    <div class="projetcontent">
+                        <h2>Scrap</h2>
+                        <p>Scrap est un jeu réalisé dans le cadre de la Global Game Jam, un évennement mondial durant
+                            lequel des groupes de développeurs doivent réaliser un jeu entier en un week-end en suivant
+                            un thème spécifique. Dans ce jeu en vue isométrique, le joueur incarne un petit robot qui
+                            dois sauver un monde au bord de l'extinction...</p>
+
+                        <h3>Stack utilisée : </h3>
+                        <div class="flex">
+                            <div class="flex2">
+                                <img src="media/images/construc3.svg" alt="Construct3">
+                            </div>
+                            <p>Code source displonible <a href="https://globalgamejam.org/2020/games/scrap-2">ici</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <a class="c-preview">
+                        <div class="projet3"></div>
+                    </a>
+                    <div class="projetcontent">
+                        <h2>Animétéo</h2>
+                        <p>Animétéo est une application mobile réaliser à l'aide de l'APK Android permettant à
+                            l'utilisateur d'obtenir des conseils vestimentaires quotidiens en fonction de la météo du
+                            jour.
+                            Cette application a été réallisé dans le cadre du module d'apprentissage de développement
+                            mobile au cours de la seconde année de DUT informatique.
+                        </p>
+
+                        <h3>Stack utilisée : </h3>
+                        <div class="flex">
+                            <div class="flex2">
+                                <img src="media/images/android.png" alt="Android">
+                                <img src="media/images/SQLite.png" alt="SQLite">
+                            </div>
+                            <p>Code source displonible <a
+                                    href="https://drive.google.com/file/d/1NDQahCs5yDFAZg8HjjA7ULQGvbZ368d0/view">ici</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <a class="c-preview">
+                        <div class="projet4"></div>
+                    </a>
+                    <div class="projetcontent">
+                        <h2>Wroom</h2>
+                        <p>Wroom est un projet regroupant des parties backend et frontend d'un site recensant des
+                            pilotes, leurs écuries et leurs performance. L'ensemble des données peut être facilement
+                            géré dans la partie administrateur. Ce projet a été réalisé dans le cadre de l'apprentissage
+                            du langage NodeJs au cours de la seconde année de DUT informatique.
+                        </p>
+
+                        <h3>Stack utilisée : </h3>
+                        <div class="flex">
+                            <div class="flex2">
+                                <img src="media/images/nodejs.png" alt="Android">
+                            </div>
+                            <p>Code source displonible <a
+                                    href="https://github.com/A-Olle/Wroom">ici</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="divider"><br /></div>
 
     <div id="contact">
-        <h1>ME CONTACTER</h1>
+        <div class="flex">
+            <h1>ME CONTACTER</h1>
+            <div>
+                <h2>Retrouvez moi sur :</h2>
+                <div class="wrap">
+                    <a href="https://twitter.com/OlleAntoine"><img src="media/images/Twitter.png"></a>
+                    <a href="https://www.linkedin.com/in/antoine-oll%C3%A9-30a7a51a0/"><img src="media/images/Logo-LinkedIn5.png"></a>
+                    <a href="https://github.com/A-Olle"><img src="media/images/github.svg"></a>
+                </div>
+            </div>
+            <h2 class="mail"> Ou à l'adresse : contact.antoine.olle@gmail.com</h3>
+        </div>
     </div>
 
-    <div class="divider"><br /></div>
+    <div class="divider">
+        <br />
+        
+    </div>
+    <footer>
+        <h2>
+            Remerciements
+        </h2> <p>Nicolas Pattyn, Aurore Famy, Guillaume Brehier</p>
+        <p>Copyright - Antoine Ollé 2020</p>
+    
+    </footer>
+    
 </body>
 
 </html>
